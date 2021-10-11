@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+
 import java.io.InputStreamReader;
 
 /**
@@ -10,7 +11,7 @@ public class AarrayOneDirection {
         BufferedReader Stdin = new BufferedReader(new InputStreamReader(System.in));
         int array[] = new int[4];
         for(int i=0;i<array.length;i++){
-            System.out.print("array["+i+"] = ");
+            System.out.print("Input ["+i+"] = ");
             array[i] = Integer.parseInt(Stdin.readLine());
         }
         int total = 0;

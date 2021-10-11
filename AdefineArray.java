@@ -8,6 +8,6 @@ public class AdefineArray {
         for(int i=0;i<array.length;i++){
             total += array[i];
         }
-        System.out.println("Total = "+total);
+        System.out.println("Total ="+total);
     }
 }
